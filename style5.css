@@ -1,0 +1,151 @@
+﻿.yslygi{
+    background-color: rgba(255, 255, 255, 0.849);
+   margin-top: 4%; margin-left:10%;
+   margin-right:10%;
+   padding: 2%;
+}
+.yslygi a{
+    font-family: Century Gothic, sans-serif;
+    font-size: 30px;
+    
+    color: rgb(33, 112, 37);
+}
+.yslygi p{
+   margin-left: 10%;
+   margin-right: 10%;
+    
+    font-weight: 300;
+      font-style: normal;
+      font-stretch: 100%;
+      font-family: MuseoSansCyrl, sans-serif;
+}
+.first{
+    margin-bottom: 0.5%;
+font-size: 25px;
+font-weight: 100;
+color: rgb(121, 84, 84);
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+}
+.begin3
+{
+  
+	position: relative;
+  padding-top: 5em;
+  margin-bottom: -1%;
+}
+.try{
+    text-align: center;
+    color:rgb(33, 112, 37);
+    font-family: Century Gothic, sans-serif;
+   font-size: 40px;
+   margin-left:10% ;
+   margin-right:10% ;
+}
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8  {
+    display: none;
+  }
+  #but2, #but22,#but4, #but44,  #but6, #but66, #but8, #but88{
+    display: none;
+  }
+  .yslygi input{
+      font-size: 20px;
+      color: rgb(46, 84, 209);
+      border: none;
+      background-color: rgba(185, 144, 68, 0);
+  }
+  .yslygi li{
+    margin-bottom: 4em; 
+  }
+  .licl{
+    margin-left: 10%;  font-size: 15px; font-stretch: 100%;font-family: MuseoSansCyrl, sans-serif;
+  }
+
+  
+.scale1 {
+  
+ 
+  width: 100%;
+  padding: 0;
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+ }
+ .scale1 img {
+  width: 100%;
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+ .scale1 img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+ .pre{
+  text-align: center;
+    color:rgba(70, 70, 70, 0.801);
+    font-family: Century Gothic, sans-serif;
+   font-size: 30px;
+   
+   font-weight: 300;
+     font-style: normal;
+     font-stretch: 100%;
+     
+ }
+ .main{
+  margin-right: 10%;
+  margin-left: 10%;
+ }
+
+ 
+#containeronemore1 {
+  width:100%;
+  height: auto;
+  max-height: 400px;
+  overflow: hidden;
+}
+#modules1 {
+ 
+ 
+  white-space:nowrap;
+  overflow-x: scroll;
+  
+-webkit-overflow-scrolling:touch;
+}
+.module1 {
+  display:inline-block;
+  height: 400px;
+  line-height:50px;
+  text-align:center;
+  background:#ddd;
+}
+
+.sp4{
+  list-style-image: url(spisok/4.png);
+}
+#sp5 a{
+  
+  font-family: Century Gothic, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(30, 97, 36, 0.842);
+
+}
+#sp5{
+  margin-left: 15%;
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+#sp5 li{
+  margin-right: 20%;
+  margin-bottom: 4%;
+  
+  color: rgba(0, 0, 0, 0.692);
+  font-size:20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+}
+#gree{
+  background-color: rgba(112, 163, 112, 0.342);
+  padding-top: 1vh;
+}

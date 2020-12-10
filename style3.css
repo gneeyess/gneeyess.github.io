@@ -1,0 +1,345 @@
+﻿.yslygi{
+  display: none;
+    background-color: rgba(255, 255, 255, 0.74);
+   margin-top: 4%; margin-left:10%;
+   margin-right:10%;
+   padding: 2%;
+}
+.yslygi a{
+    font-family: Century Gothic, sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(33, 112, 37);
+}
+.yslygi p{
+   margin-left: 10%;
+   margin-right: 10%;
+    
+    font-weight: 300;
+      font-style: normal;
+      font-stretch: 100%;
+      font-family: MuseoSansCyrl, sans-serif;
+}
+
+.yslygi img{ min-width: 270px;}
+
+@media (max-width: 1000px) {
+  div.yslygi a { font-size: 25px; 
+    }
+  h1.first{font-size: 15px; }}
+
+.first{
+    margin-bottom: 0.5%;
+font-size: 1.5vw;
+font-weight: 100;
+color: rgb(121, 84, 84);
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8  {
+    display: none;
+  }
+  #but2, #but22,#but4, #but44,  #but6, #but66, #but8, #but88{
+    display: none;
+  }
+ 
+  .yslygi li{
+    padding: 2em;
+    background-color:rgb(255, 255, 255) ;
+    margin-bottom: 4em; 
+    margin-right: 2em; 
+    list-style-type: none;
+  }
+
+  .licl{
+    margin-left: 10%;  font-size: 15px; font-stretch: 100%;font-family: MuseoSansCyrl, sans-serif;
+  }
+  .begin2
+{
+    
+        background: url(prot/fonprot.jpg) no-repeat center -10px;
+        background-size: cover;
+    
+    
+	position: absolute;
+  padding-top: 5em;
+  padding-bottom: 8em;
+  margin-bottom: 0;
+  
+}
+.begin2 h{
+    
+  color: white;
+  font-family: Century Gothic, sans-serif;
+ font-size: 3vw;
+ margin-left:43% ;
+}
+.yslygi img{
+  width: 50%;
+  height: auto;
+ 
+}
+
+#hand img{
+  width: 35%;
+  height: auto;
+}
+#foot img{
+  width: 35%;
+  height: auto;
+}
+
+div.container3 {
+  
+  position: relative }              /* 1 */
+div.container3 input{
+  font-family: Consolas, sans-serif;
+    
+  font-size: 60px;
+  color: rgba(31, 28, 27, 0.548);
+  border: none;
+  background-color: rgba(185, 144, 68, 0);
+  position: absolute;               /* 2 */
+  top: 50%;
+  right: 2%;                         /* 3 */
+  transform: translate(0, -50%) }
+
+
+
+  
+/* Add padding to container elements */
+
+
+/* The Modal (background) */
+.modalf1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 101%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #2e2a2a86;
+ 
+}
+
+.modalf0 {
+  
+  
+ 
+  left: 0;
+  top: 0;
+  width: 101%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #2e2a2a86;
+ 
+}
+
+/* Modal Content/Box */
+.modalf1-content {
+  
+        
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9 {
+  z-index: 999999;
+}
+
+#containeronemore {
+  width:100%;
+  height: auto;
+  max-height: 260px;
+  overflow: hidden;
+}
+#modules {
+ 
+ 
+  white-space:nowrap;
+  overflow-x: scroll;
+  
+-webkit-overflow-scrolling:touch;
+}
+.module {
+  display:inline-block;
+  width: 400px;
+  line-height:50px;
+  text-align:center;
+  background:#ddd;
+}
+#mo{
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+#mo a{
+  margin-right: 5%;
+  padding-left: 15%;
+  font-family: Century Gothic, sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: rgba(35, 41, 35, 0.842);
+}
+#mo p{
+  padding-right: 5%;
+  padding-left: 10%;
+  color: rgba(49, 47, 47, 0.692);
+  font-size:25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+}
+#mo video{
+  float: right;
+  
+}
+
+#mo2{
+  padding-top: 50px;
+  
+ }
+ 
+ #mo2 a{
+   text-align: center;
+   font-family: Century Gothic, sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+  color: rgba(35, 41, 35, 0.842);
+ }
+ #mo2 p{
+  color: rgba(49, 47, 47, 0.692);
+   padding-left: 5%;
+   padding-right: 5%;
+  text-align: center;
+   font-size:25px;
+   font-weight: 500;
+   font-style: normal;
+   font-stretch: 100%;
+   font-family: MuseoSansCyrl, sans-serif;
+ }
+ #wec{
+   margin-left: 10%;
+   margin-top: 10%;
+  
+  font-family: Century Gothic, sans-serif;
+  font-size: 3vw;
+  font-weight: 100;
+  color: rgb(36, 117, 38);
+ }
+ .sp{
+  list-style-image:url(spisok/1.png);
+ }
+ .sp2{
+  list-style-image:url(spisok/2.png);
+ }
+ .sp3{
+  list-style-image:url(spisok/3.png);
+ }
+ #vtoroi a{
+  padding-left: 10%;
+  font-family: Century Gothic, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.842);
+
+ }
+
+ #vtoroi p{
+ 
+  padding-left: 2%;
+  color: rgba(0, 0, 0, 0.692);
+  font-size:15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+}
+#sp a{
+  
+  font-family: Century Gothic, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(30, 97, 36, 0.842);
+
+}
+#sp{
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+#sp li{
+  margin-right: 20%;
+  margin-bottom: 1%;
+  
+  color: rgba(0, 0, 0, 0.692);
+  font-size:20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+}
+
+.bannerprot{
+background-color: white;
+
+margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+.bannerprot img{
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+#menu1{
+background-color: rgba(255, 255, 255, 0);
+border: none;
+font-size: 1.5vw;
+color: rgb(250, 172, 56);
+text-decoration: underline; 
+margin-top: 2vw;
+margin-left: 27%;
+margin-right: 2.5%;
+}
+
+
+#menu2{
+  
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 1.5vw;
+  color: rgb(255, 172, 47);
+  text-decoration: underline; 
+  }
+  @media (max-width: 1000px) {
+    div.begin2 h { font-size: 30px; 
+      margin-left: 21%;}}
+
+
+  @media (max-width: 1000px) {
+    input#menu1 { font-size: 20px; 
+      margin-left: 21%;
+      margin-bottom: 2%;}
+      input#menu2 { font-size: 20px; 
+        margin-left: 21%;
+        margin-bottom: 2%;}}
+  
+#footer1{position: relative;
+	margin-top: 0 ;
+	right: 0;
+
+  left: 0;
+   color: white;
+    
+align-content:flex-start;
+font-family:Tahoma;
+padding: 20px;
+background-color:rgb(36, 29, 29);}

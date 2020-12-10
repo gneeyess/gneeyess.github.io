@@ -1,0 +1,1014 @@
+﻿
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	
+	font-size: 12pt;
+	font-weight: 300;
+	color: #000000;
+}
+
+
+header {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 8vh;
+  
+}
+
+nav {
+  position: absolute; left: 0;
+  top: 1px;
+  
+  width: 100%;  
+  height: 50px;
+  z-index: 99;
+}
+nav.fixed {
+  position: fixed; top: 0%;
+  
+}
+::placeholder {
+  font-family: MuseoSansCyrl, sans-serif;
+  font-size: 1.4em;
+}
+
+
+.d7 form {
+  opacity: 0.5;
+  width: auto;
+margin-top: 3%;
+  margin-left: 30%;
+}
+.d7 input {
+  width: 300px;
+  height: 36px;
+  padding-left: 15px;
+ border-left:none;
+ border-right:none;
+ border-top:none;
+  border-bottom: 1px solid #00000083;
+  background: #f9f0da31;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+  background: url(tt.svg) no-repeat left 5px ;
+  
+}
+
+.nomer{
+  width: 10vw;
+  font-size: 1.5vw;
+  position: absolute;
+  float: right;
+  top: 4%;
+  right: 24vw; color: green;
+}
+
+
+.nomer img{
+margin-right: 5px;
+float: left;
+width: 3.5vw;
+  
+}
+.nomer img:hover {
+
+  opacity: 0.3;
+}
+
+.t_img{
+  width: 4.2vw;
+  margin-bottom: 10px;
+display: block;
+}
+
+#hehe img:hover {
+  opacity: 0.5;
+}
+#hehe{
+  z-index: 999999;
+  position: fixed;
+  top: 30%;
+  margin-left: 2vw;
+}
+/*********************************************************************************/
+/* Header                Bahnschrift SemiLight                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+{
+	background: url(images/banner.jpg) no-repeat center -10px;
+	background-size: cover;
+}
+
+#header
+{
+	position: relative;
+  padding: 25em 0em;
+  
+}
+#he{position: absolute;
+	top: 0px;
+	right: 0;
+height: 2em;
+  left: 0;
+   
+    margin: 0;
+
+background-color:blue;}
+
+
+.tree{font-family: Century Gothic, sans-serif;
+	font-size: 4vh;
+top: 32%;
+    right:  10%;
+    position: absolute;
+    width: 70%;
+height: 20%;
+
+}
+.four{font-family: Century Gothic, sans-serif;
+	font-size: 1.3vw;
+top: 55%;
+    right:  10%;
+    position: absolute;
+    width: 50%;
+height: 20%;
+
+
+}
+
+.two{
+  font-weight: bold;
+  text-align:right;
+  font-family: Poppins, Arial, sans-serif;
+	font-size: 5vw;
+top: 15%;
+    right:  10%;
+    position: absolute;
+    width: 50%;
+height: 20%;
+}
+
+/*********************************************************************************/
+/* Menu             
+
+background:linear-gradient(to top left,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.548), rgba(255, 255, 255, 0.712), rgb(255, 255, 255), rgba(255, 255, 255, 0.699), rgba(255, 255, 255, 0.815),
+rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.685));}
+
+text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 10px rgba(255, 255, 255, 0.733), 0 0 15px rgba(255, 255, 255, 0.479);
+                                                         */
+/*********************************************************************************/
+
+
+
+.z2{position: relative;
+
+ 
+vertical-align: middle;
+
+font-family:Tahoma;
+
+
+background:linear-gradient(rgba(255, 255, 255, 0.637), rgba(255, 255, 255, 0.616));}
+#menu  {
+    margin: 0;
+    
+   
+      
+    text-align: left; /* ������ � ����� ������������� �� ������ */
+    margin-left: 16%;
+    }
+    #menu li{
+    display:inline-block;
+   
+    }
+    #menu .a1 {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: rgb(124, 114, 114);
+    font-size:100%;
+    text-decoration: none;
+    }
+    
+    
+    .a1 {
+      
+      font-weight: 600;
+        font-family: MuseoSansCyrl, sans-serif;
+        color: #00a650; /*����� ���� ������*/
+        cursor: pointer;
+        line-height: 1; /*����� ������ ������*/
+        text-decoration: none; /*������� �������������*/
+    
+    }
+    .a1:after {
+        display: block;
+        
+        left: 0; /*�������� �� right:0;, ����� �������� ����������� ������������� */
+        width: 0;/*����� ������ ����� �� ��������� �������*/
+        height: 2px; /*����� ������ �����*/
+        background-color: #00a650; /*����� ���� �����*/
+        content: "";
+        transition: width 0.7s ease-out; /*����� ����� ��������*/
+    }
+    
+    .a1:hover:after,
+    .a1:focus:after {
+        width: 100%; /*������������� �������� 100% ����� ������ �������������� ���������*/
+    }
+
+
+
+/*********************************************************************************/
+/* WHYYYYY                                                                      */
+/*********************************************************************************/
+
+
+ 
+.boxA{
+    
+    float: left;
+	left: 13%;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+    margin: 1.66%;        
+}
+.boxA:hover {
+    opacity: 0.3;
+}
+.b{
+float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+}
+.boxc{
+top:1.2vw;
+    left: 17vw;
+    position: absolute;
+    
+    width: 8vw;
+height: auto;
+
+         
+}
+
+
+/*********************************************************************************/
+/* �����           linear-gradient(#82d18d, #0c9c0d   
+
+box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;                                                     */
+/*********************************************************************************/
+
+
+input.button4 {
+  position: absolute;
+top: 78%;
+right:  13%;
+box-shadow: 0 -1px 3px rgba(0,0,0,.3);
+  display: inline-block;
+  font-family: Candara;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  
+  padding: 1em 1em;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background: #1E90FF ;
+  
+  -webkit-animation: pulsate 6s linear infinite;
+  animation: pulsate 6s linear infinite;
+}
+input.button4:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  cursor: pointer;
+}
+input.button4:active {
+  background: #075db3 ;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  
+}
+@-webkit-keyframes pulsate {
+  10% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+  10% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+
+
+
+
+/*********************************************************************************/
+/* �����           linear-gradient(#82d18d, #0c9c0d   
+
+ВИДОС
+
+box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;                                                     */
+/*********************************************************************************/
+
+.one11 video{
+  width: 100%;
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  div.one11 {margin-left: 15%;; }
+
+  div.one11 p {font-size: 22px; }
+}
+
+.one11{
+  width: 40vw;
+  min-width: 300px;
+  background-color:#1a1a1d;
+  right: 0;
+padding: 2%;
+padding-top: 0.2%;
+
+  left: 5vw;
+   
+ margin-top: -7%;
+ margin-left: 23%;
+ margin-right: 7%;
+ 
+
+align-content:flex-start;
+ position: relative;
+ 
+ 
+align-items:center; justify-content: center;
+
+}
+.one12{
+  width: 25vw;
+  height: 20vw;
+  background: rgb(221, 221, 221);
+ 
+
+
+  
+
+}
+.one12 a:visited {
+  color: #075025; /* Цвет посещенных ссылок */
+  
+ }
+
+
+
+#welcome11{position: absolute;
+	margin-top: 0 ;
+	right: 0;
+
+  left: 0;
+   
+   
+align-content:flex-start;
+font-family:Tahoma;
+
+align-items:center; justify-content: center;
+}
+
+video {
+  width: 60%;
+  height: auto;
+  max-height: 50%;
+}
+
+.b1{ 
+  opacity: 1;
+ width: 100%;
+max-width:160px;
+max-height: 310px;
+ height: auto;
+float: left;
+
+    position: absolute;
+}
+.b2{  width: 100%;
+max-width:400px;
+
+ height: auto;
+float: left;
+margin: 7px 27px 17px 0;
+    position: relative;
+    
+}
+
+.b3{ width: 100%;
+max-width:400px;
+max-height: 900px;
+ height: auto;
+float: right;
+margin: 7px 0 17px 0;
+    position: relative;
+    
+}
+
+#footer{position: absolute;
+	margin-top: 0 ;
+	right: 0;
+
+  left: 0;
+   color: white;
+    
+align-content:flex-start;
+font-family:Tahoma;
+padding: 20px;
+background-color:rgb(36, 29, 29);}
+
+
+/*********************************************************************************/
+/* CARUSEL                                                   */
+/*********************************************************************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.slider__wrapper {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.slider__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .slider__item {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider__item {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.slider__control {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  bottom: 0;
+  background: #fff;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+}
+
+.slider__control_left {
+  left: 0;
+}
+
+.slider__control_right {
+  right: 0;
+}
+
+.slider__control::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.slider__control_left::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23424242' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.slider__control_right::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23424242' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.slider__content_header {
+  position: relative;
+}
+
+.slider__content_img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+
+.slider__content_title {
+  font-family: MuseoSansCyrl, sans-serif;
+  background: #f5f5f5;
+  color: #424242;
+  white-space: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  padding: 10px 15px;
+  padding-bottom: 5px;
+  margin: 0;
+  
+}
+
+
+
+.slider__content_footer {
+  background: #f5f5f5;
+  display: flex;
+  padding: 14px 15px;
+  color: #616161;
+}
+
+
+.slider__content_photo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/*********************************************************************************/
+/* CARUSEL                                                   */
+/*********************************************************************************/
+
+
+
+
+      #elem{
+        display:none;
+        position: relative;
+       
+        text-align: center;
+        }
+
+        #elem2, #elem3, #elem4,  #elem5, #elem6, #elem7 {
+          display: none;
+          }
+          
+       
+
+
+
+/*********************************************************************************/
+/* SPISOK                                               */
+/*********************************************************************************/
+@media (min-width: 1100px) {
+div.eee{ display: none;}
+}
+
+
+
+@media (max-width: 1100px) {
+  header{display: none;}
+  div.z2 { display: none; }
+  div.d7 { display: none; }
+  div#hehe { display: none; }
+  div.nomer { display: none; }
+  div.nomer222 { display: none; }
+  div#header{
+   padding-top: 60%;
+  }
+header{height: 9vh;}}
+
+
+@media (max-width: 1100px) {
+  div.boxc { width:90px;
+    height: 310px;
+  position: absolute;
+  top: 12px;
+  }}
+
+
+
+@media (max-width: 1400px) {
+  div.two     { font-size: 55px;
+	top: 23%; }
+  
+}
+@media (max-width: 800px) {
+  div.tree     { font-size: 25px;
+	top: 38%; }
+  
+}
+@media (max-width: 1000px) {
+  div.four     { font-size: 15px;
+	top: 67%; }
+  
+}
+
+@media (max-width: 800px) {
+  input.button4     { right: 22%; 
+  top:80%;}
+  
+}
+
+
+/*********************************************************************************/
+/* SPISOK    style                                           */
+/*********************************************************************************/
+.eee{
+  z-index: 999999;
+  
+}
+
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+nav{
+  height: 0%;
+  
+}
+.dropbtn {
+  background-color: #8e8f8f00;
+  color: white;
+  padding: 15px;
+ 
+  margin-top: 1px;
+  font-size: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #53535300;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+  padding: 12px 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.scale {
+  
+  background-color: rgba(219, 219, 219, 0.815);
+  margin-top: 1.2vw;
+  margin-bottom:1.2vw ;
+  width: 100%;
+  
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+ }
+ .scale img {
+  width: 100%;
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+ .scale img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+
+
+
+ #toTop {
+  
+  text-align:center;
+  
+  position:fixed;
+  bottom:40px; /* отступ кнопки от нижнего края страницы*/
+  right:40px;
+  cursor:pointer;
+  display:none;
+  
+  }
+  
+
+  /*********************************************************************************/
+/* NEWS STYLE                                        */
+/*********************************************************************************/
+
+ 
+   
+    
+/*********************************************************************************/
+/* NEWS STYLE                                        */
+/*********************************************************************************/
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #911007;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+float: left;
+width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #2e2a2a86;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+#id01{
+  z-index: 999999;
+}
+button {
+  background-color: #076d0b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+     .sert{
+       position: relative;
+       display: none;
+       margin: 0;
+       background-color:rgb(36, 29, 29);
+       padding-top: 1vw;
+       padding-bottom: 1vw;
+       margin-bottom: 2% ;
+     }
+     .sert img{
+       margin-left:1vw;
+     }
+     .rar1{
+       display: inline-block;
+       float: left;
+       margin-right:5% ;
+       margin-bottom:10% ;
+       margin-top:4% ;
+       margin-left:2% ;
+     
+      
+     }
+     
+    
+    .one{
+
+      line-height: 22px;
+      color: rgb(99, 96, 94);
+      background-color:#88848000;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: 100%;
+      font-family: MuseoSansCyrl, sans-serif;
+     margin-top: 8%;
+     margin-bottom: 4%;
+     margin-left: 10%;
+     
+     
+    width: 80%;
+    height: 50%;
+    
+    }
+    
+    
+    
+    #welcome{position: absolute;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    background-color:#88848000;}
+
+    .button5 {
+    
+    left:  13%;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.3);
+      display: inline-block;
+      font-family: Candara;
+      font-size: 1.5em;
+      font-weight: 700;
+      color: rgb(245,245,245);
+      text-shadow: 0 -1px rgba(0,0,0,.1);
+      text-decoration: none;
+      
+      padding: 0.7em 0.7em;
+      outline: none;
+      border: none;
+      border-radius: 50px;
+      background: #3a8d5fc9 ;
+      
+      
+    }
+    .button5:hover {
+      background: #225a3bc9 ;
+    }
+    
+   
+      
+    .contai {
+    position: relative;
+    
+    margin-bottom: 5%;
+}
+.text1 {
+   font-family: Century Gothic, sans-serif;
+   font-size: 2.5vw;
+   color:green;
+    position: absolute;
+    left: 12%;
+ 
+    background: #fff;
+    
+}
+
+@media (max-width: 600px) {
+  
+
+  div.text1 {font-size: 25px; }
+}
+
+    .one11 p{
+     text-align: center;
+      font-family: Century Gothic, sans-serif;
+   font-size: 3.5vw;
+   color:rgb(184, 176, 172);
+    }
+ .lili a{
+   
+
+  margin-right: 20%;
+  padding-bottom: 2%;
+  
+  color: rgba(0, 0, 0, 0.692);
+  font-size:2vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: 100%;
+  font-family: MuseoSansCyrl, sans-serif;
+}
+.lili a:visited {
+  color: #116125; /* Цвет посещенных ссылок */
+ }
+ .lili a:active {
+  color: #104910; /* Цвет активных ссылок */
+ }
+ .lili a:hover {
+  color: #104910; /* Цвет активных ссылок */
+ }
+.lili a { 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+ }
